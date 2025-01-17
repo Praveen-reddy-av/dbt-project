@@ -19,7 +19,7 @@ sources:
         description: raw orders data.
         columns:
           - name: id
-            description: primary key to customers data.
+            description: primary key to orders data.
             tests:
               - unique
               - not_null
